@@ -71,8 +71,6 @@ Numérde téléphone : 05 56 67 78 89.
 Heures d'ouverture : Du lundi au vendredi, de 10 h à 19 h.
 ```
 
-#### 2
-
 5. Ajout des Metas pour les Réseaux Sociaux :
 
 ```
@@ -152,8 +150,6 @@ Heures d'ouverture : Du lundi au vendredi, de 10 h à 19 h.
 
 Remarque : Assurez-vous de tester le site après chaque modification pour vérifier l'absence
 de régressions et pour valider les améliorations apportées.
-
-#### 3
 
 ### Présentation orale
 

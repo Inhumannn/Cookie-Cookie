@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --font-logo: "Outfit", sans-serif;
+  --font-title: "Roboto", sans-serif;
+  --font-main: "Open Sans", sans-serif;
+
+  --main-color: #000000;
+  --second-color: #ffffff;
+  --third-color: #fff8f0;
+  --nav-color: #7a7a7a;
+  --background-cover: #0000005c;
+
+  --w-logo: clamp(60px, 9vw, 300px);
+  --fz-title: clamp(32px, 6vw, 40px);
+  --fw-title: 700;
+  --fz-title2: clamp(32px, 5vw, 33px);
+  --fz-title3: clamp(24px, 4vw, 24px);
+  --fz-p: clamp(14px, 2vw, 20px);
+
+  --space-xs: 8px 15px;
+  --space-sm: 30px 15px;
+  --space-md: 75px 15px;
+  --space-lg: 150px 15px;
+}
+h1 {
+  font-family: var(--font-logo);
+  font-size: var(--fz-title);
+  font-weight: var(--fw-title);
+}
+h2 {
+  font-family: var(--font-title);
+  font-size: var(--fz-title2);
+  font-weight: var(--fw-title);
+}
+h3 {
+  font-family: var(--font-title);
+  font-size: var(--fz-title3);
+  font-weight: var(--fw-title);
+}
+p {
+  font-family: var(--font-main);
+  font-size: var(--fz-p);
+}
+a {
+  font-family: var(--font-main);
+  font-size: var(--fz-p);
+  color: var(--main-colors);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+header {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-sm);
+  color: var(--main-color);
+  > a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+  }
+  #menu {
+    display: none;
+  }
+}
+footer {
+  background-color: var(--third-color);
+  > div {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding: var(--space-md);
+    color: var(--main-color);
+    > div {
+      h2:nth-child(n + 1) {
+        padding-bottom: 12px;
+      }
+      #legale,
+      #apropos {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+      }
+      #partenaire,
+      #social {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+      }
+    }
+  }
+}
+#home {
+  #cookies {
+    background-color: var(--third-color);
+    > div {
+      max-width: 1440px;
+      margin: auto;
+      padding: var(--space-lg);
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      article {
+        padding-right: 160px;
+        > h2 {
+          margin-bottom: 17px;
+        }
+        > p {
+          margin-bottom: 12px;
+        }
+        > div {
+          display: flex;
+          gap: 27px;
+        }
+      }
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  #explore {
+    max-width: 1920px;
+    margin: auto;
+    padding: var(--space-lg);
+    > div:first-child {
+      text-align: center;
+    }
+    > div:last-child {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 100px;
+      .card {
+        img {
+          width: 100%;
+          height: 280px;
+          object-fit: cover;
+        }
+        > div {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+  #about {
+    background-color: var(--third-color);
+    > div {
+      max-width: 1440px;
+      margin: auto;
+      padding: var(--space-lg);
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  #contact {
+    max-width: 1440px;
+    margin: auto;
+    padding: var(--space-lg);
+    > div {
+      text-align: center;
+    }
+    form {
+      max-width: 480px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      input,
+      textarea {
+        padding: 12px 8px;
+      }
+    }
+  }
+}
