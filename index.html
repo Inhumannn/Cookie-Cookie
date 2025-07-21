@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Professeur Tournesol" />
-    <meta name="description" content="Cookie Cookie Shop" />
+    <meta name="description" content="Cookie Shop" />
     <meta
       name="keywords"
       content="pâtisserie, gâteau, tarte, macaron, éclair, chocolat, dessert, boulangerie, brioche, cookies, muffin, crêpe, croissant, beignet, glaçage, fondant, viennoiserie, galette, madeleine, meringue"
@@ -17,14 +17,14 @@
     /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <title>Cookie Cookie</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Cookie</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
       <a href="/">
-        <i class="fa-solid fa-cookie-bite"></i>
-        <h1>Cookie Cookie Shop</h1>
+        <i class="fa-solid fa-cookie-bite" id="logo"></i>
+        <h1>Cookie Shop</h1>
       </a>
       <nav>
         <ul id="nav-links">
@@ -36,7 +36,7 @@
         <i class="fas fa-bars" id="menu"></i>
       </nav>
       <!-- Ne pas oublier cette parti -->
-      <i id="Cart" class="fa-solid fa-cart-shopping"></i>
+      <i class="fa-solid fa-cart-shopping" id="cart"></i>
       <div id="cart-content" style="display: none">
         <button id="close-cart">X</button>
         <h3>Mon panier</h3>
@@ -63,7 +63,7 @@
               <a href="#">Contact Us</a>
             </div>
           </article>
-          <img src="img/5.jpg" />
+          <img src="img/cookie3.webp" />
         </div>
       </section>
       <section id="explore">
@@ -77,7 +77,7 @@
         </div>
         <div>
           <article class="card">
-            <img src="img/1.jpg" />
+            <img src="img/cookie.webp" />
             <h3>Chocolate Chip</h3>
             <p>Our classic chocolate chip cookies, baked to perfection.</p>
             <div>
@@ -92,7 +92,7 @@
             </div>
           </article>
           <article class="card">
-            <img src="img/2.jpg" />
+            <img src="img/cookie2.webp" />
             <h3>Oatmeal Raisin</h3>
             <p>Chewy oatmeal cookies with plump raisins</p>
             <div>
@@ -107,7 +107,7 @@
             </div>
           </article>
           <article class="card">
-            <img src="img/3.jpg" />
+            <img src="img/makaron2.webp" />
             <h3>Peanut Butter</h3>
             <p>Rich and creamy peanut butter cookies</p>
             <div>
@@ -122,7 +122,7 @@
             </div>
           </article>
           <article class="card">
-            <img src="img/4.jpg" />
+            <img src="img/makaron.webp" />
             <h3>Sugar</h3>
             <p>Soft and chewy sugar cookies, perfect for any occasion.</p>
             <div>
@@ -136,16 +136,15 @@
       </section>
       <section id="about">
         <div>
-          <img src="img/6.jpg" />
+          <img src="img/gateau.webp" />
           <div>
             <p>About us</p>
             <h2>Baking with Passion and Tradition</h2>
             <p>
-              At Cookie Cookie, we are a family-owned bakery that has been
-              serving our community with love and dedication for over 20 years.
-              Our cookies are made with the finest ingredients, baked to
-              perfection, and infused with the warmth and comfort of a
-              neighborhood bakeshop.
+              At Cookie, we are a family-owned bakery that has been serving our
+              community with love and dedication for over 20 years. Our cookies
+              are made with the finest ingredients, baked to perfection, and
+              infused with the warmth and comfort of a neighborhood bakeshop.
             </p>
             <p>
               We take pride in our commitment to quality, sustainability, and
@@ -233,13 +232,13 @@
           <h2>Sociaux</h2>
           <div id="social">
             <a href="https://www.instagram.com/"
-              ><i class="fa-brands fa-instagram"></i
+              ><i class="fa-brands fa-instagram icon"></i
             ></a>
             <a href="https://x.com/">
-              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-twitter icon"></i>
             </a>
             <a href="https://www.facebook.com/">
-              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-facebook icon"></i>
             </a>
           </div>
         </div>
