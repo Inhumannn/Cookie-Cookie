@@ -58,6 +58,10 @@ a {
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
+input,
+textarea::placeholder {
+  font-family: var(--font-main);
+}
 .icon {
   font-size: var(--w-icon);
 }
@@ -65,7 +69,7 @@ a {
   margin-bottom: 10px;
 }
 header {
-  max-width: 1400px;
+  max-width: 1920px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -95,7 +99,7 @@ header {
 footer {
   background-color: var(--third-color);
   > div {
-    max-width: 1400px;
+    max-width: 1920px;
     margin: auto;
     display: flex;
     gap: 50px;
@@ -152,7 +156,7 @@ footer {
     }
   }
   #explore {
-    max-width: 1920px;
+    max-width: 1440px;
     margin: auto;
     padding: var(--space-lg);
     > div:first-child {
