@@ -18,7 +18,7 @@
 
   --w-logo: clamp(28px, 5vw, 47px);
   --fz-title: clamp(24px, 4.5vw, 40px);
-  --fw-title: 700;
+  --fw-title: 600;
   --fz-title2: clamp(28px, 4.5vw, 40px);
   --fz-title3: clamp(20px, 3vw, 28px);
   --fz-p: clamp(16px, 1.5vw, 20px);
@@ -149,6 +149,7 @@ footer {
       }
       img {
         width: 100%;
+        aspect-ratio: 4 / 3;
         object-fit: cover;
       }
     }
@@ -173,7 +174,7 @@ footer {
       .card {
         .card-img {
           width: 100%;
-          height: 15vh;
+          aspect-ratio: 4 / 3;
           overflow: hidden;
           img {
             width: 100%;
@@ -219,7 +220,7 @@ footer {
     }
     img {
       width: 100%;
-      height: 50vh;
+      aspect-ratio: 3 / 3;
       object-fit: cover;
     }
   }
