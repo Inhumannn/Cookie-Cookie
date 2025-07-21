@@ -1,161 +1,120 @@
 # Consigne de l'Exercice d'Optimisation de Site Web
 
-**Objectif :** Réaliser une optimisation globale d'un site web en améliorant ses performances, son SEO, son accessibilité, et en mettant en place un référencement local. Produire un rapport détaillant les actions menées et leur impact.
+**Objectif :**  
+Réaliser une optimisation globale d'un site web en améliorant ses **performances**, son **SEO**, son **accessibilité**, et en mettant en place un **référencement local**.  
+Produire un **rapport détaillant les actions menées et leur impact**.
 
-### Outils Minimum Recommandés :
+---
 
-```
-Analyse Lighthouse : Pour évaluer la performance, l'accessibilité, les bonnes pratiques et le SEdu site.
-```
+### 🛠️ Outils Minimum Recommandés :
 
-```
-Analyse EcoIndex : Pour mesurer l'impact environnemental du site web.
-Recherche de bugs avec DevTools : Pour identifier et corriger les problèmes techniques.
-```
+- **Analyse Lighthouse** :  
+  Pour évaluer la performance, l'accessibilité, les bonnes pratiques et le SEO du site.
 
-### Optimisations Attendues :
+- **Analyse EcoIndex** :  
+  Pour mesurer l'impact environnemental du site web.
 
-1. Optimisation des Performances du Site :
-   Réduire les temps de chargement.
+- **Recherche de bugs avec DevTools** :  
+  Pour identifier et corriger les problèmes techniques.
 
-```
-Minimiser le nombre de requêtes HTTP.
-```
+---
 
-```
-Optimiser les images et autres ressources.
-```
+### ✅ Optimisations Attendues :
 
-2. Optimisation et Correction de la Structure du Code, de l'Ergonomie et de
-   l'Accessibilité :
+#### 1. Optimisation des Performances du Site
 
-```
-Nettoyer et structurer le code HTML, CSS, et JavaScript.
-Assurer une navigation intuitive et réactive.
-```
+- Réduire les temps de chargement :
+  - Minimiser le nombre de requêtes HTTP.
+  - Optimiser les images et autres ressources.
 
-```
-Améliorer l'accessibilité pour les utilisateurs avec des besoins spécifiques
-(utilisation de l'outil WAVE pour identifier les problèmes).
-```
+#### 2. Optimisation et Correction de la Structure du Code, de l'Ergonomie et de l'Accessibilité
 
-3. Optimisation Globale du Site pour les Performances et le SE:
+- Nettoyer et structurer le code HTML, CSS, et JavaScript.
+- Assurer une navigation intuitive et réactive.
+- Améliorer l'accessibilité pour les utilisateurs avec des besoins spécifiques *(utilisation de l'outil WAVE pour identifier les problèmes).*
 
-```
-Implémenter les meilleures pratiques SE(titres, descriptions, balises ALT,
-etc.).
-```
+#### 3. Optimisation Globale du Site pour les Performances et le SEO
 
-```
-Utiliser des techniques de compression et de minification.
-```
+- Implémenter les meilleures pratiques SEO :
+  - Titres, descriptions, balises ALT, etc.
+- Utiliser des techniques de **compression** et de **minification**.
+- Assurer une bonne vitesse de chargement sur **mobile et desktop**.
 
-```
-Assurer une bonne vitesse de chargement sur mobile et desktop.
-```
+#### 4. Mise en Place du Référencement Local
 
-4. Mise en Place du Référencement Local :
+- Ajouter des **données structurées (Schema.org)** pour améliorer la visibilité locale.
 
-```
-Ajouter des données structurées en utilisant Schema.org pour améliorer la
-visibilité locale.
-Informations à inclure :
-```
+  Informations à inclure :
+  - **Adresse** : 140 avenue Jacques Troussel, 83136 Rocbaron.
+  - **Numéro de téléphone** : 05 56 67 78 89.
+  - **Heures d'ouverture** : Du lundi au vendredi, de 10 h à 19 h.
 
-```
-Adresse : 140 avenue Jacques Troussel, 83136 Rocbaron.
-```
+#### 5. Ajout des Metas pour les Réseaux Sociaux
 
-```
-Numérde téléphone : 05 56 67 78 89.
-Heures d'ouverture : Du lundi au vendredi, de 10 h à 19 h.
-```
+- Implémenter les balises :
+  - **Open Graph** pour Facebook
+  - **Twitter Cards** pour Twitter
+- Assurer une bonne présentation des pages lors du partage sur les réseaux sociaux.
 
-5. Ajout des Metas pour les Réseaux Sociaux :
+#### 6. Améliorations liées à l’Accessibilité du Site
 
-```
-Implémenter les balises Open Graph pour Facebook et Twitter Cards pour
-Twitter.
-Assurer une bonne présentation des pages lors du partage sur les réseaux
-sociaux.
-```
+- Assurer que le site est **conforme aux directives WCAG**.
+- Utiliser des **tests automatiques et manuels** pour identifier et résoudre les problèmes d'accessibilité.
 
-6. **Améliorations liées à l’Accessibilité du Site** :
+---
 
-```
-Assurer que le site est conforme aux directives WCAG.
-```
+### 📝 Production du Rapport d'Optimisation :
 
-```
-Utiliser des tests automatiques et manuels pour identifier et résoudre les
-problèmes d'accessibilité.
-```
+#### Analyses
 
-### Production du Rapport d'Optimisation :
+- Utiliser Lighthouse, EcoIndex, WAVE et d'autres outils nécessaires pour effectuer des analyses approfondies.
+- Présenter les résultats des analyses **avant et après les optimisations**.
 
-```
-Analyses :
-```
+#### Cahier de Recette pour la Résolution des Bugs
 
-```
-Utiliser Lighthouse, EcoIndex, WAVE, et d'autres outils nécessaires pour
-effectuer des analyses approfondies.
-```
+- Documenter tous les bugs trouvés avec DevTools et les étapes pour les reproduire.
+- Détail des solutions mises en place pour chaque bug.
 
-```
-Présenter les résultats des analyses avant et après les optimisations.
-```
+#### Liste et Justification des Actions Réalisées
 
-```
-Cahier de Recette pour la Résolution des Bugs :
-Documenter tous les bugs trouvés avec DevTools et les étapes pour les
-reproduire.
-```
+- Lister toutes les actions menées sur le site pour les optimisations.
+- Justifier chaque action avec des explications sur son impact et son importance.
+- Prioriser les actions selon leur impact sur :
+  - la performance,
+  - le SEO,
+  - l’accessibilité.
 
-```
-Détailler les solutions mises en place pour chaque bug.
-Liste et Justification des Actions Réalisées :
-```
+---
 
-```
-Lister toutes les actions menées sur le site pour les optimisations.
-```
+### 📍 Informations pour le Référencement Local à Intégrer
 
-```
-Justifier chaque action avec des explications sur son impact et son
-importance.
-```
+- **Adresse** : 140 avenue Jacques Troussel, 83136 Rocbaron  
+- **Numéro de téléphone** : 05 56 67 78 89  
+- **Heures d'ouverture** : Du lundi au vendredi, de 10 h à 19 h
 
-```
-Prioriser les actions en fonction de leur impact sur la performance, le SEO, et
-l'accessibilité.
-```
+---
 
-Informations pour le Référencement Local à Intégrer :
+### 📦 Livrables :
 
-```
-Adresse : 140 avenue Jacques Troussel, 83136 Rocbaron.
-Numérde téléphone : 05 56 67 78 89.
-```
+1. **Code Optimisé** : Version finale du site après toutes les optimisations.  
+2. **Rapport d'Optimisation** : Document détaillant :
+   - les analyses,
+   - les actions menées,
+   - leur impact,
+   - le cahier de recette pour la résolution des bugs.
 
-```
-Heures d'ouverture : Du lundi au vendredi, de 10 h à 19 h.
-```
+> **Remarque** : Assurez-vous de tester le site après chaque modification pour vérifier l'absence de régressions et valider les améliorations apportées.
 
-### Livrables :
+---
 
-1. Code Optimisé : Version finale du site après toutes les optimisations.
-2. Rapport d'Optimisation : Document détaillant les analyses, les actions menées,
-   leur impact, et le cahier de recette pour la résolution des bugs.
+### 🗣️ Présentation Orale
 
-Remarque : Assurez-vous de tester le site après chaque modification pour vérifier l'absence
-de régressions et pour valider les améliorations apportées.
+- **Durée** : 15 minutes (tolérance de +/- 5 minutes).  
+- **Support attendu** : Présentation type Canva ou PowerPoint.
 
-### Présentation orale
+---
 
-La présentation orale devra idéalement durée 15 minutes. Une tolérence de +/- 5 minutes est autorisé. Pour la présentation, un support de présentation style canva ou powerpoint est attendu.
-
-## Exemple de cahier de recette
+## 📋 Exemple de Cahier de Recette
 
 Détail des fonctionnalités débuggées et de leur statut :
 
