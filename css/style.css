@@ -66,6 +66,12 @@ textarea::placeholder {
 .little-title {
   margin-bottom: 10px;
 }
+#cart-content {
+  display: none;
+}
+.show {
+  display: block !important;
+}
 header {
   max-width: 1920px;
   margin: auto;
@@ -87,7 +93,7 @@ header {
     display: flex;
     gap: 50px;
   }
-  #menu {
+  #menu-toggle {
     display: none;
   }
   #cart {
@@ -254,7 +260,14 @@ footer {
   #nav-links {
     display: none;
   }
-  #menu {
+  header > nav {
+    display: flex;
+    gap: 20px;
+    #nav-links > li:nth-child(n + 1) {
+      margin-bottom: 12px;
+    }
+  }
+  #menu-toggle {
     display: block !important;
   }
   #cookies > div {
@@ -283,5 +296,39 @@ footer {
   }
   #explore > div:nth-child(2) {
     grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+#cart {
+  position: fixed;
+  bottom: 7px;
+  right: 9px;
+  width: 43px;
+  height: 43px;
+  background-color: #d97d54;
+  color: var(--third-color);
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#cart-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 30px 20px;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+  z-index: 1000;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  #cart-content-header,
+  #cart-content-footer {
+    display: flex;
+    justify-content: space-between;
   }
 }

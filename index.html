@@ -22,20 +22,24 @@
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <i class="fas fa-bars" id="menu"></i>
+        <i class="fas fa-bars" id="menu-toggle"></i>
       </nav>
-      <i class="fa-solid fa-cart-shopping" id="cart"></i>
-      <div id="cart-content" style="display: none">
-        <button id="close-cart">X</button>
-        <h3>Mon panier</h3>
+      <dialog id="cart-content">
+        <div id="cart-content-header">
+          <h3>Mon panier</h3>
+          <a href="#" id="close-cart">x</a>
+        </div>
         <ul id="cart-items"></ul>
         <p>Total: $<span id="cart-total"></span></p>
-        <div class="buttonzone">
-          <button id="clear-cart">Vider le panier</button>
-          <button id="checkout">Valider la commande</button>
+        <div class="buttonzone" id="cart-content-footer">
+          <a href="" id="clear-cart">Vider le panier</a>
+          <a href="" id="checkout">Valider la commande</a>
         </div>
-      </div>
+      </dialog>
     </header>
+    <div>
+      <i class="fa-solid fa-cart-shopping" id="cart"></i>
+    </div>
     <main id="home">
       <section id="cookies">
         <div>
@@ -280,5 +284,6 @@
       src="https://kit.fontawesome.com/58aafaf913.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
